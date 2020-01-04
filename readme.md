@@ -3,7 +3,7 @@
 > Attach to a running JVM and browse loaded classes
 
 ## GUI
-![ui](ui.png)
+![ui](ui.png?)
 
 ## Features
 This fork of [frontfact's jvminspector](https://github.com/frontfact/jvminspector) makes the project easier to use by providing some key new features:
