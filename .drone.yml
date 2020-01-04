@@ -1,0 +1,22 @@
+kind: pipeline
+name: build
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: build
+  image: maven:3.6.3-jdk-8
+  commands:
+  - mvn package
+
+- name: publish
+  image: plugins/github-release
+  when:
+    event:
+      - tag
+  settings:
+    api_key:
+      from_secret: github_token
+    files: "target/*.jar"
