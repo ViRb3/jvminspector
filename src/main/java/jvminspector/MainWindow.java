@@ -178,7 +178,7 @@ public final class MainWindow extends javax.swing.JDialog {
         layout.rowWeights = new double[] {0.0, 1.0};
         getContentPane().setLayout(layout);
 
-        button_reload_vms.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jvminspector/res/reload.png"))); // NOI18N
+        button_reload_vms.setIcon(new javax.swing.ImageIcon(getClass().getResource("/reload.png"))); // NOI18N
         button_reload_vms.setToolTipText("refresh available JVMs");
         button_reload_vms.setMaximumSize(new java.awt.Dimension(30, 30));
         button_reload_vms.setMinimumSize(new java.awt.Dimension(30, 30));
@@ -203,7 +203,7 @@ public final class MainWindow extends javax.swing.JDialog {
         gridBagConstraints.insets = new java.awt.Insets(2, 2, 2, 2);
         getContentPane().add(combobox_VMs, gridBagConstraints);
 
-        button_dump.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jvminspector/res/dump.png"))); // NOI18N
+        button_dump.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dump.png"))); // NOI18N
         button_dump.setToolTipText("fetch JVM classes");
         button_dump.setMaximumSize(new java.awt.Dimension(30, 30));
         button_dump.setMinimumSize(new java.awt.Dimension(30, 30));
