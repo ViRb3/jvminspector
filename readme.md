@@ -6,7 +6,7 @@
 
 ## Features
 This fork of [frontfact's jvminspector](https://github.com/frontfact/jvminspector) makes the project easier to use by providing some key new features:
-- Maven source control
+- Maven build system
 - Dynamic JDK dependency resolution
 - Continuous Integration
 - Pre-built releases
