@@ -2,7 +2,6 @@
 # JVM Inspector
 > Attach to a running JVM and browse loaded classes
 
-## GUI
 ![ui](ui.png?)
 
 ## Features
